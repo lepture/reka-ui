@@ -15,7 +15,7 @@ const selected = ref(['Banana'])
   >
     <Variant title="default">
       <h1 class="font-medium mb-6">
-        What's your favorit food?
+        What's your favorite food?
       </h1>
       <CheckboxGroupRoot
         v-model="selected"
